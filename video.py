@@ -9,11 +9,13 @@ import os
 import csv
 
 # Définition des constantes
-VIDEO_FILE_NAME = '/Users/nikos/Desktop/flux/nic.mp4'
-OUTPUT_FILE_NAME = '/Users/nikos/Desktop/flux/nic-gaze.mp4'
-CAMERA_CALIBRATION = '/Users/nikos/PycharmProjects/ETH-test/.venv/example/input/cam00.xml'
-MODEL_PATH = '/Users/nikos/PycharmProjects/ETH-test/.venv/ckpt/epoch_24_ckpt.pth.tar'
-HEATMAP_OUTPUT = '/Users/nikos/Desktop/flux/heatmap.png'
+VIDEO_FILE_NAME = 'path-to-your-video.mp4'
+OUTPUT_FILE_NAME = 'path-to-your-output-video.mp4'
+HEATMAP_OUTPUT = 'path-to-your-heatmap.png'
+
+CAMERA_CALIBRATION = 'adjust-the-path-to-your-cam00.xml'
+MODEL_PATH = 'adjust-the-path-to-your-epoch_24_ckpt.pth.tar'
+
 
 # Transformation pour le modèle de gaze
 trans = transforms.Compose([
