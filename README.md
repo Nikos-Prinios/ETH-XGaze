@@ -7,3 +7,5 @@ https://drive.google.com/file/d/1Ma6zJrECNTjo_mToZ5GKk7EF-0FS4nEC/view
 A very simple script that take a video as input. It will create an output video file (showing the gaze vector), a csv file and a heatmap
 
 ![alt greatness](nic-gaze.gif "Amazing uh?").
+
+You'll also need to Modules folder from : https://github.com/xucong-zhang/ETH-XGaze
