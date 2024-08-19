@@ -8,4 +8,4 @@ A very simple script that take a video as input. It will create an output video 
 
 ![alt greatness](nic-gaze.gif "Amazing uh?").
 
-You'll also need to Modules folder from : https://github.com/xucong-zhang/ETH-XGaze
+You'll also need the Modules folder from : https://github.com/xucong-zhang/ETH-XGaze
